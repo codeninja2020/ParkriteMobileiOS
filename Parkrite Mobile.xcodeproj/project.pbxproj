@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19DBBC5216370D00086D719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DBBC4216370D00086D719 /* AppDelegate.swift */; };
+		B19DBBC7216370D00086D719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DBBC6216370D00086D719 /* ViewController.swift */; };
+		B19DBBCA216370D00086D719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19DBBC8216370D00086D719 /* Main.storyboard */; };
+		B19DBBCC216370D30086D719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19DBBCB216370D30086D719 /* Assets.xcassets */; };
+		B19DBBCF216370D30086D719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19DBBCD216370D30086D719 /* LaunchScreen.storyboard */; };
+		B19DBBDA216370D30086D719 /* Parkrite_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DBBD9216370D30086D719 /* Parkrite_MobileTests.swift */; };
+		B19DBBE5216370D30086D719 /* Parkrite_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DBBE4216370D30086D719 /* Parkrite_MobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19DBBD6216370D30086D719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19DBBB9216370D00086D719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19DBBC0216370D00086D719;
+			remoteInfo = "Parkrite Mobile";
+		};
+		B19DBBE1216370D30086D719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19DBBB9216370D00086D719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19DBBC0216370D00086D719;
+			remoteInfo = "Parkrite Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B19DBBC1216370D00086D719 /* Parkrite Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parkrite Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19DBBC4216370D00086D719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19DBBC6216370D00086D719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19DBBC9216370D00086D719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19DBBCB216370D30086D719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19DBBCE216370D30086D719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19DBBD0216370D30086D719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19DBBD5216370D30086D719 /* Parkrite MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parkrite MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19DBBD9216370D30086D719 /* Parkrite_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parkrite_MobileTests.swift; sourceTree = "<group>"; };
+		B19DBBDB216370D30086D719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19DBBE0216370D30086D719 /* Parkrite MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parkrite MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19DBBE4216370D30086D719 /* Parkrite_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parkrite_MobileUITests.swift; sourceTree = "<group>"; };
+		B19DBBE6216370D30086D719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19DBBBE216370D00086D719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DBBD2216370D30086D719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DBBDD216370D30086D719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19DBBB8216370D00086D719 = {
+			isa = PBXGroup;
+			children = (
+				B19DBBC3216370D00086D719 /* Parkrite Mobile */,
+				B19DBBD8216370D30086D719 /* Parkrite MobileTests */,
+				B19DBBE3216370D30086D719 /* Parkrite MobileUITests */,
+				B19DBBC2216370D00086D719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19DBBC2216370D00086D719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19DBBC1216370D00086D719 /* Parkrite Mobile.app */,
+				B19DBBD5216370D30086D719 /* Parkrite MobileTests.xctest */,
+				B19DBBE0216370D30086D719 /* Parkrite MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19DBBC3216370D00086D719 /* Parkrite Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				B19DBBC4216370D00086D719 /* AppDelegate.swift */,
+				B19DBBC6216370D00086D719 /* ViewController.swift */,
+				B19DBBC8216370D00086D719 /* Main.storyboard */,
+				B19DBBCB216370D30086D719 /* Assets.xcassets */,
+				B19DBBCD216370D30086D719 /* LaunchScreen.storyboard */,
+				B19DBBD0216370D30086D719 /* Info.plist */,
+			);
+			path = "Parkrite Mobile";
+			sourceTree = "<group>";
+		};
+		B19DBBD8216370D30086D719 /* Parkrite MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19DBBD9216370D30086D719 /* Parkrite_MobileTests.swift */,
+				B19DBBDB216370D30086D719 /* Info.plist */,
+			);
+			path = "Parkrite MobileTests";
+			sourceTree = "<group>";
+		};
+		B19DBBE3216370D30086D719 /* Parkrite MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B19DBBE4216370D30086D719 /* Parkrite_MobileUITests.swift */,
+				B19DBBE6216370D30086D719 /* Info.plist */,
+			);
+			path = "Parkrite MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19DBBC0216370D00086D719 /* Parkrite Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19DBBE9216370D30086D719 /* Build configuration list for PBXNativeTarget "Parkrite Mobile" */;
+			buildPhases = (
+				B19DBBBD216370D00086D719 /* Sources */,
+				B19DBBBE216370D00086D719 /* Frameworks */,
+				B19DBBBF216370D00086D719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parkrite Mobile";
+			productName = "Parkrite Mobile";
+			productReference = B19DBBC1216370D00086D719 /* Parkrite Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19DBBD4216370D30086D719 /* Parkrite MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19DBBEC216370D30086D719 /* Build configuration list for PBXNativeTarget "Parkrite MobileTests" */;
+			buildPhases = (
+				B19DBBD1216370D30086D719 /* Sources */,
+				B19DBBD2216370D30086D719 /* Frameworks */,
+				B19DBBD3216370D30086D719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19DBBD7216370D30086D719 /* PBXTargetDependency */,
+			);
+			name = "Parkrite MobileTests";
+			productName = "Parkrite MobileTests";
+			productReference = B19DBBD5216370D30086D719 /* Parkrite MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B19DBBDF216370D30086D719 /* Parkrite MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19DBBEF216370D30086D719 /* Build configuration list for PBXNativeTarget "Parkrite MobileUITests" */;
+			buildPhases = (
+				B19DBBDC216370D30086D719 /* Sources */,
+				B19DBBDD216370D30086D719 /* Frameworks */,
+				B19DBBDE216370D30086D719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19DBBE2216370D30086D719 /* PBXTargetDependency */,
+			);
+			name = "Parkrite MobileUITests";
+			productName = "Parkrite MobileUITests";
+			productReference = B19DBBE0216370D30086D719 /* Parkrite MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19DBBB9216370D00086D719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Parkrite Zambia";
+				TargetAttributes = {
+					B19DBBC0216370D00086D719 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B19DBBD4216370D30086D719 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B19DBBC0216370D00086D719;
+					};
+					B19DBBDF216370D30086D719 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B19DBBC0216370D00086D719;
+					};
+				};
+			};
+			buildConfigurationList = B19DBBBC216370D00086D719 /* Build configuration list for PBXProject "Parkrite Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19DBBB8216370D00086D719;
+			productRefGroup = B19DBBC2216370D00086D719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19DBBC0216370D00086D719 /* Parkrite Mobile */,
+				B19DBBD4216370D30086D719 /* Parkrite MobileTests */,
+				B19DBBDF216370D30086D719 /* Parkrite MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19DBBBF216370D00086D719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DBBCF216370D30086D719 /* LaunchScreen.storyboard in Resources */,
+				B19DBBCC216370D30086D719 /* Assets.xcassets in Resources */,
+				B19DBBCA216370D00086D719 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DBBD3216370D30086D719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DBBDE216370D30086D719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19DBBBD216370D00086D719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DBBC7216370D00086D719 /* ViewController.swift in Sources */,
+				B19DBBC5216370D00086D719 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DBBD1216370D30086D719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DBBDA216370D30086D719 /* Parkrite_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DBBDC216370D30086D719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DBBE5216370D30086D719 /* Parkrite_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19DBBD7216370D30086D719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19DBBC0216370D00086D719 /* Parkrite Mobile */;
+			targetProxy = B19DBBD6216370D30086D719 /* PBXContainerItemProxy */;
+		};
+		B19DBBE2216370D30086D719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19DBBC0216370D00086D719 /* Parkrite Mobile */;
+			targetProxy = B19DBBE1216370D30086D719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19DBBC8216370D00086D719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19DBBC9216370D00086D719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19DBBCD216370D30086D719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19DBBCE216370D30086D719 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19DBBE7216370D30086D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19DBBE8216370D30086D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19DBBEA216370D30086D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parkrite Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkritezambia.Parkrite-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19DBBEB216370D30086D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parkrite Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkritezambia.Parkrite-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B19DBBED216370D30086D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parkrite MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkritezambia.Parkrite-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkrite Mobile.app/Parkrite Mobile";
+			};
+			name = Debug;
+		};
+		B19DBBEE216370D30086D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parkrite MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkritezambia.Parkrite-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkrite Mobile.app/Parkrite Mobile";
+			};
+			name = Release;
+		};
+		B19DBBF0216370D30086D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parkrite MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkritezambia.Parkrite-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parkrite Mobile";
+			};
+			name = Debug;
+		};
+		B19DBBF1216370D30086D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parkrite MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parkritezambia.Parkrite-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parkrite Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19DBBBC216370D00086D719 /* Build configuration list for PBXProject "Parkrite Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DBBE7216370D30086D719 /* Debug */,
+				B19DBBE8216370D30086D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19DBBE9216370D30086D719 /* Build configuration list for PBXNativeTarget "Parkrite Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DBBEA216370D30086D719 /* Debug */,
+				B19DBBEB216370D30086D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19DBBEC216370D30086D719 /* Build configuration list for PBXNativeTarget "Parkrite MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DBBED216370D30086D719 /* Debug */,
+				B19DBBEE216370D30086D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19DBBEF216370D30086D719 /* Build configuration list for PBXNativeTarget "Parkrite MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DBBF0216370D30086D719 /* Debug */,
+				B19DBBF1216370D30086D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19DBBB9216370D00086D719 /* Project object */;
+}
